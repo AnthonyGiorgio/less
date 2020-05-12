@@ -1,0 +1,10 @@
+*.o
+
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# Vim backup files
+*~

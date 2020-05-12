@@ -1,0 +1,3 @@
+# encode all files as EBCDIC unless mentioned elsewhere
+* git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+
