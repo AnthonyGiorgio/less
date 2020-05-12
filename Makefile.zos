@@ -10,6 +10,8 @@ INSTALL = ./install.sh -c
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_DATA = ${INSTALL} -m 644
 
+# We use 'xplink' and 'edit=no' here for 
+# better performance and smaller executables.
 CFLAGS = -Wc,xplink,inline,lp64  -O2
 CFLAGS_COMPILE_ONLY = -c
 LDFLAGS = -Wl,xplink,edit=no,lp64

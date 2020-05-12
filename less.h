@@ -37,6 +37,9 @@
 #endif
 
 #ifdef __MVS__
+/*
+ * Defines for IBM z/OS (aka MVS).
+ */
 #define _XOPEN_SOURCE 600
 #define PATH_MAX _XOPEN_PATH_MAX
 #endif
