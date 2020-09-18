@@ -1,4 +1,18 @@
+# Object files
 *.o
+
+# Debug files
+*.dbg
+
+# Build generated files
+Makefile
+config.log
+config.status
+defines.h
+less
+lessecho
+lesskey
+stamp-h
 
 # Swap
 [._]*.s[a-v][a-z]
